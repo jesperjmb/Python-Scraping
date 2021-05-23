@@ -1,7 +1,6 @@
 #Import needed libraries
 import pandas as pd
 import botometer
-import numpy as np
 
 #Setup the API keys for Twitter and Botometer
 rapidapi_key = "YOUR KEY"
