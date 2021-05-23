@@ -39,4 +39,4 @@ for screen_name, result in bom.check_accounts_in(username_list):
 for i, row in enumerate(df.itertuples()):
     df['Rating'][i] = result_lists[i]
 #We export the Botometer data to a CSV file
-df.to_csv('df_total.csv',index = False, encoding='utf-8')
+df.to_csv('botometer_rating.csv',index = False, encoding='utf-8')
