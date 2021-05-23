@@ -14,7 +14,7 @@ bom = botometer.Botometer(wait_on_ratelimit=True,
                           rapidapi_key=rapidapi_key,
                           **twitter_app_auth)
 
-#Note: the following example uses a predefine list of Twitter usernames scraped from Twitter.
+#Note: the following example uses a predefined list of Twitter usernames scraped from Twitter.
 #See the following tutorail if you wish to scrape your own list of usernames: https://github.com/jesperjmb/Python-Scraping/tree/main/scraping-twitter
 
 #We import the list of Twitter usernames
