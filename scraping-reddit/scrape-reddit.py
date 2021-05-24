@@ -9,7 +9,7 @@ from datetime import datetime
 reddit = praw.Reddit(client_id='you client id', client_secret='your client secret', user_agent='your user agent')
 
 url_prefix = 'https://www.reddit.com/r/' #define what subreddit that should be scraped
-#Below is a list of parameters to be scraped. Consul the PRAW documentation for all possible parameters
+#Below is a list of parameters to be scraped. Consult the PRAW documentation for all possible parameters
 comm_list = []
 header_list = []
 thread_author_list = []
