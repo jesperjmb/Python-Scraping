@@ -1,4 +1,4 @@
-An example of how to scrape Reddit using the [Python Reddit API Wrapper (PRAW)]https://praw.readthedocs.io/en/latest/
+An example of how to scrape Reddit using the [Python Reddit API Wrapper (PRAW)](https://praw.readthedocs.io/en/latest/)
 
 PRAW can be installed using pip
 <pre><code>pip install praw</code></pre>
